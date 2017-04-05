@@ -1,0 +1,40 @@
+
+body, html{
+			    background: black;
+			        color: white;
+                       position: relative;
+                         margin: 0;
+                             padding: 0;
+                                height: 100%;
+		}
+
+		h1 {
+			    color: lime;
+			        font: 80px SansSerif;
+		}
+
+		li {
+                color: white;
+			        font: 40px Arial;
+		}
+
+		                @media print {
+			h1 {
+                  color: limegreen;
+                    font: 20px Arial;
+			}
+		}
+		div {
+                margin: 10pc 5px 10px 5px;
+		}
+}
+ 
+   
+        p {
+             margin: 0;
+                 padding: 0;
+                    position: absolute;
+                       bottom: 10px;
+                            width: 100%;
+                                text-align: center;
+        }
